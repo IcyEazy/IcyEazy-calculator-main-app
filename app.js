@@ -142,7 +142,7 @@ function zero(){
 function calculate() {
     var p = inputNumber.value;
     var q = eval(p);
-    inputNumber.value = q.toLocaleString();
+    inputNumber.value = q;
 } 
 
 themeOne.addEventListener("click", function(){
